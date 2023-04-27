@@ -1,6 +1,7 @@
 .big-box {
     min-height: 30vh;
-    min-width: 30vw;
+    min-width: 200px;
+    width: 30vw;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
@@ -34,6 +35,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow-y: hidden;
     height: 100vh;
     min-height: 300px;
     min-width: 300px;
